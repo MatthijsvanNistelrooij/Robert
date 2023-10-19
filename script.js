@@ -84,6 +84,10 @@ if (document.readyState === "loading") {
   ready()
 }
 
+function checkAllItemsPlaced() {
+  return itemsPlaced === 10 // Assuming you have 10 items to be placed
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   const smallImages = document.querySelectorAll(".small-images img")
   const dropContainer = document.querySelector(".drop-container")
