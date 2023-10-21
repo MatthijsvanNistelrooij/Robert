@@ -101,6 +101,13 @@ function ready() {
     })
   })
 
+  function resetAnimationItem() {
+    const item = document.getElementById("animation-item")
+    item.style.animation = "none"
+    item.offsetHeight // Trigger a reflow to apply the reset
+    item.style.animation = null
+  }
+
   const smallImages = document.querySelectorAll(".small-images img")
   const dropContainer = document.querySelector(".drop-container")
 
@@ -125,6 +132,10 @@ function ready() {
 
       const dropSound = new Audio("audio/coin.mp3")
       dropSound.play()
+
+      resetAnimationItem()
+      const item = document.getElementById("animation-item")
+      item.classList.add("animate-item-drop")
     }
   })
 }
