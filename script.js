@@ -104,7 +104,7 @@ function ready() {
   function resetAnimationItem() {
     const item = document.getElementById("animation-item")
     item.style.animation = "none"
-    item.offsetHeight // Trigger a reflow to apply the reset
+    item.offsetHeight
     item.style.animation = null
   }
 
