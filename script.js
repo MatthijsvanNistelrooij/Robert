@@ -12,7 +12,7 @@ function createGame(totalTime) {
       gameOverSound: new Audio("audio/gameover.mp3"),
 
       startMusic() {
-        this.bgMusic.volume = 0.3
+        this.bgMusic.volume = 0.1
         this.bgMusic.play()
       },
       stopMusic() {
