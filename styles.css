@@ -89,13 +89,14 @@ body {
 .drop-container {
     position: absolute;
     height: 80px;
-    width: 60px;
+    width: 80px;
     top: 360px;
-    left: 348px;
+    left: 328px;
     display: flex; 
     flex-wrap: wrap;
     align-content: flex-start; 
     overflow: hidden;
+    border-top: 20px solid transparent;
 }
 
 .small-images {
@@ -111,6 +112,7 @@ body {
     top: 3px; 
     left: 230px;
     height: 20px;
+    
 }
 
 .small-image2 {
@@ -118,6 +120,7 @@ body {
     top: 0px; 
     left: 50px;
     height: 20px;
+    
 }
 
 .small-image3 {
@@ -125,48 +128,56 @@ body {
     top: 1px; 
     left: 100px;
     height: 20px;
+    
 }
 .small-image4 {
     position: absolute;
     top: 0px; 
     left: 20px;
     height: 20px;
+    
 }
 .small-image5 {
     position: absolute;
     top: 0px; 
     left: 30px;
     height: 20px;
+    
 }
 .small-image6 {
     position: absolute;
     top: 0px; 
     left: 40px;
     height: 20px;
+    
 }
 .small-image7 {
     position: absolute;
     top: 2px; 
     left: 50px;
     height: 20px;
+    
 }
 .small-image8 {
     position: absolute;
     top: 0px; 
     left: 55px;
     height: 20px;
+    
 }
 .small-image9 {
     position: absolute;
     top: 0px; 
     left: 60px;
     height: 20px;
+    
 }
 .small-image10 {
     position: absolute;
     top: 1px; 
     left: 215px;
     height: 20px;
+    
 }
 
 .animation-item {
